@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Persona Logo Template
+// @name         VVVVVV Logo Template
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  Used osu template to make a template for Persona.
+// @description  Used osu template to make a template for VVVVVV.
 // @author       oralekin, LittleEndu, ekgame (edited by TopherToGo)
 // @match        https://hot-potato.reddit.com/embed*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
@@ -11,8 +11,8 @@
 if (window.top !== window.self) {
     window.addEventListener('load', () => {
         // Load the image
-        const image = document.createElement("img");
-        image.src = "https://i.imgur.com/7C0FutZ.png";
+        const image = document.createElement("img");https://github.com/TopherToGo/PersonaSpaceOverlay/blob/vvvvvv/userscript.user.js
+        image.src = "https://i.imgur.com/taQbMlv.png";
         image.onload = () => {
             image.style = `position: absolute; left: 0; top: 0; width: ${image.width/3}px; height: ${image.height/3}px; image-rendering: pixelated; z-index: 1`;
         };
