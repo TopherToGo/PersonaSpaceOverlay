@@ -11,7 +11,7 @@
 if (window.top !== window.self) {
     window.addEventListener('load', () => {
         // Load the image
-        const image = document.createElement("img");https://github.com/TopherToGo/PersonaSpaceOverlay/blob/vvvvvv/userscript.user.js
+        const image = document.createElement("img");
         image.src = "https://i.imgur.com/taQbMlv.png";
         image.onload = () => {
             image.style = `position: absolute; left: 0; top: 0; width: ${image.width/3}px; height: ${image.height/3}px; image-rendering: pixelated; z-index: 1`;
